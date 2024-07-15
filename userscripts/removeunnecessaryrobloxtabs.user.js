@@ -17,11 +17,6 @@ async function doShit() {
     // destroy recommended tab..
     mainPlaces[1].remove()
 
-    // destroy innovation awards tab
-    // TODO: revert when the thing is over
-    mainPlaces[1].remove()
-    mainPlaces[1].remove()
-
     // destroy sponsored
     mainPlaces[3].remove()
     mainPlaces[3].remove()
