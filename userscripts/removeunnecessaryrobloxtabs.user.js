@@ -18,12 +18,11 @@ async function doShit() {
     mainPlaces[1].remove()
 
     // destroy sponsored
-    mainPlaces[3].remove()
-    mainPlaces[3].remove()
+    mainPlaces[2].remove()
 
     // destroy recommended again
+    mainPlaces[2].remove()
     mainPlaces[3].remove()
-    mainPlaces[5].remove()
 }
 
 setTimeout(doShit, 2000)
